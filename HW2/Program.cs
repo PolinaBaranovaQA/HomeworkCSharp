@@ -41,7 +41,7 @@ public class MainClass
         }
 
         //Создание переменных, куда вкладываются значения
-        int maxElement = 0;
+        int maxElement = int.MinValue;
         int secondMaxElement = int.MinValue;
 
         //Пробегаемся по массиву и сравниваем элементы
